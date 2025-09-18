@@ -37,8 +37,8 @@ https://github.com/user-attachments/assets/b21ef527-06d8-40d5-9c88-c018f222022f
 ### 2. Add the Script
 1. Open **Tampermonkey** in your browser.  
 2. Click **Create a new script**.  
-3. Copy & paste the entire script code into the editor.  
-4. Save (`Ctrl+S` or `File > Save`).  
+3. Copy & paste the entire content of the `aim_assist.js` script code into the editor.  
+4. Save (<kbd>Ctrl+S</kbd> or <kbd>File</kbd> > <kbd>Save</kbd>).  
 5. Make sure the script is **enabled** in Tampermonkey.  
 
 ### 3. Access Krunker.io
@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/b21ef527-06d8-40d5-9c88-c018f222022f
 ## 🎮 Usage
 
 ### Open the Menu
-- Press **`O`** (the letter "O") to toggle the cheat menu.  
+- Press <kbd>O</kbd> (the letter "O") to toggle the cheat menu.  
 - The menu appears in the center with a blurred background.  
 - If it doesn’t appear:  
   - Reload the Krunker.io tab
@@ -94,7 +94,6 @@ https://github.com/user-attachments/assets/b21ef527-06d8-40d5-9c88-c018f222022f
 - `far`: Set max targeting distance.  
 - `targetNPCs`: Include/exclude NPCs.  
 
----
 
 ## ▶️ Playing with the Script
 1. Join a **public or custom Krunker match**.  
@@ -102,35 +101,21 @@ https://github.com/user-attachments/assets/b21ef527-06d8-40d5-9c88-c018f222022f
 3. Use the in-game menu to tweak settings.  
 
 If issues occur:  
-- Press **O** again.  
+- Press <kbd>O</kbd> again.  
 - Use **Reload Script** (Aimbot tab).  
 - Check **Console** for errors.  
 
----
-
-## 🧪 Testing
-- Best tested in a **custom game** (`/` menu > Custom > Create).  
-- Avoid public matches to prevent bans.  
-- Watch the **Console logs** for debug messages like:  
-  - `"Scene detected"`  
-  - `"Player controller not found"`  
-
----
 
 ## ❗ Troubleshooting
 
 ### Menu Not Showing / Blurry Background
-- Ensure you’re in a match, not the main menu.  
-- Press **O** or use **Reload Script**.  
-- Disable other conflicting extensions/scripts.  
+- Reload Tab (Will rejoin the previous match in progress)
 
 ### Script Freezes on Match Transition
-- The script auto-resets, but if stuck → click **Reload Script**.  
-- Check **Console logs** for persistent errors.  
+- The script auto-resets, but if stuck → click **Reload Script**.
 
 ### Aimbot / ESP Not Working
 - Verify `krunkAimbot` or `BoxESP` are enabled.  
-- Toggle `targetNPCs` if aiming at NPCs.  
 - Adjust `smoothingFactor` or `far`.  
 
 ### Performance Issues
